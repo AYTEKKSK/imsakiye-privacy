@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İmsakiye — Gizlilik Politikası</title>
+    <style>
+        body { font-family: "Segoe UI", system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 32px 20px; color: #1a1a2e; line-height: 1.7; }
+        h1 { color: #0a0a14; border-bottom: 2px solid #f5c842; padding-bottom: 10px; }
+        h2 { color: #1a1a35; margin-top: 32px; }
+        p, li { color: #333; }
+        ul { padding-left: 20px; }
+        .date { color: #888; font-size: .9rem; margin-bottom: 32px; }
+        a { color: #e8a020; }
+    </style>
+</head>
+<body>
+
+<h1>🌙 İmsakiye &amp; Ramazan Tarifleri — Gizlilik Politikası</h1>
+<p class="date">Son güncelleme: 17 Mart 2026</p>
+
+<p>
+    Bu gizlilik politikası, <strong>İmsakiye &amp; Ramazan Tarifleri</strong> mobil uygulamasının
+    kullanıcı verilerini nasıl işlediğini açıklamaktadır.
+    Uygulamayı kullanarak bu politikayı kabul etmiş sayılırsınız.
+</p>
+
+<h2>1. Toplanan Veriler</h2>
+<p>Uygulama aşağıdaki verileri işleyebilir:</p>
+<ul>
+    <li>
+        <strong>Konum verisi (isteğe bağlı):</strong> Kullanıcı izin verirse cihazın GPS koordinatları,
+        bulunulan şehre göre namaz vakitlerini hesaplamak amacıyla kullanılır.
+        Konum verisi uygulama sunucusuna <em>kaydedilmez</em>.
+    </li>
+    <li>
+        <strong>Namaz vakitleri (önbellek):</strong> İnternet bağlantısı olmayan durumlarda kullanılmak
+        üzere günlük namaz vakitleri cihazın yerel depolama alanında (localStorage) geçici olarak
+        saklanır. Bu veri yalnızca cihazda kalır, dışarıya aktarılmaz.
+    </li>
+</ul>
+
+<h2>2. Üçüncü Taraf Servisler</h2>
+<p>Uygulama, namaz vakitlerini almak için iki dış API hizmetini kullanmaktadır:</p>
+<ul>
+    <li>
+        <strong>Aladhan API</strong> (<a href="https://aladhan.com" target="_blank">aladhan.com</a>):
+        Tarih, şehir/ülke adı veya GPS koordinatları gönderilerek namaz vakitleri sorgulanır.
+        Aladhan'ın gizlilik politikası için kendi web sitesini inceleyiniz.
+    </li>
+    <li>
+        <strong>Nominatim / OpenStreetMap</strong> (<a href="https://nominatim.openstreetmap.org" target="_blank">nominatim.openstreetmap.org</a>):
+        GPS koordinatları kullanılarak şehir adı elde edilir (ters geocoding).
+        OpenStreetMap'in gizlilik politikası için kendi web sitesini inceleyiniz.
+    </li>
+</ul>
+<p>Bu servisler yalnızca kullanıcı aktif olarak konum izni verdiğinde veya şehir seçimi yaptığında çağrılır.</p>
+
+<h2>3. Kişisel Veri Saklanmıyor</h2>
+<p>
+    Uygulama geliştiricisi herhangi bir kullanıcı verisi <strong>toplamaz, saklamaz veya satmaz</strong>.
+    Uygulamanın arka uç sunucusu bulunmamaktadır; tüm işlemler kullanıcının cihazında
+    veya yukarıda belirtilen açık kaynaklı üçüncü taraf API'ler aracılığıyla gerçekleşir.
+</p>
+
+<h2>4. Bildirim İzni</h2>
+<p>
+    Uygulama, kullanıcı onayıyla namaz vakitlerine ait yerel bildirimler (ezan hatırlatıcısı)
+    gönderebilir. Bu bildirimler tamamen cihaz üzerinden oluşturulur; dış sunucuya bildirim
+    verisi gönderilmez. Kullanıcı bildirimleri istediği zaman uygulama içinden veya
+    Android sistem ayarlarından kapatabilir.
+</p>
+
+<h2>5. Konum İzni</h2>
+<p>
+    Uygulama konum iznini yalnızca kullanıcı "GPS Konumu" butonuna bastığında ve
+    açık rıza gösterdiğinde talep eder. İzin verilmezse uygulama şehir seçimi
+    ile sorunsuz çalışmaya devam eder. Konum verisi hiçbir şekilde depolanmaz
+    veya paylaşılmaz.
+</p>
+
+<h2>6. Çocukların Gizliliği</h2>
+<p>
+    Uygulama 13 yaşın altındaki çocuklardan bilerek veri toplamamaktadır ve
+    bu yaş grubuna yönelik özel bir hizmet sunmamaktadır.
+</p>
+
+<h2>7. Politika Değişiklikleri</h2>
+<p>
+    Bu gizlilik politikası gerektiğinde güncellenebilir. Değişiklikler bu sayfa
+    üzerinden yayımlanır. Uygulamayı kullanmaya devam etmeniz güncel politikayı
+    kabul ettiğiniz anlamına gelir.
+</p>
+
+<h2>8. İletişim</h2>
+<p>
+    Gizlilik politikasına ilişkin sorularınız için:
+    <strong><a href="mailto:aytekksk@gmail.com">aytekksk@gmail.com</a></strong>
+</p>
+
+</body>
+</html>
